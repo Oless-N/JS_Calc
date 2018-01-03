@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>jS_Calc</title>
+
+<script type="text/javascript" src="js/calc.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/style_calc.css">
+</head>
+
+<body>
+
+<div id="base_frame">
+<div id="output_text">0</div>
+	<button class="but" id="button1" onclick="setF_Bufer('1')"> 1 </button>
+	<button class="but" id="button2" onclick="setF_Bufer('2')"> 2 </button>
+	<button class="but" id="button3" onclick="setF_Bufer('3')"> 3 </button>
+	<button class="oper" id="brake_AC" onclick="refresh()"> AC </button>
+	<br>
+	<button class="but" id="button4" onclick="setF_Bufer('4')"> 4 </button>
+	<button class="but" id="button5" onclick="setF_Bufer('5')"> 5 </button>
+	<button class="but" id="button6" onclick="setF_Bufer('6')"> 6 </button>
+	<button class="oper" id="minus"onclick="setOperator('-')"> - </button>
+	<br>
+	<button class="but" id="button7" onclick="setF_Bufer('7')"> 7 </button>
+	<button class="but" id="button8" onclick="setF_Bufer('8')"> 8 </button>
+	<button class="but" id="button9" onclick="setF_Bufer('9')"> 9 </button>
+	<button class="oper" id="devide" onclick="setOperator('/')"> / </button>
+	<br>
+	<button class="oper" id="result"onclick="result()"> = </button>
+	<button class="but" id="button0"  onclick="setF_Bufer('0')"> 0 </button>
+	<button class="oper" id="multiplay" onclick="setOperator('x')"> X </button>
+	<button class="oper" id="plus" onclick="setOperator('+')"> + </button>
+	<br>
+
+
+
+	</div>
+
+
+
+</body></html>

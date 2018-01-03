@@ -1,0 +1,33 @@
+#base_frame {
+    background-color: darkgrey;
+    width: 400px;
+    height: 300px;
+    padding: 1%;
+    margin: auto;
+    box-shadow: 3px 5px 15px rgba(0,0,0,0.8);
+}
+
+.but, .oper{
+    width: 23%;
+    height: 20%;
+    display: block;
+    float: left;
+    background-color: grey;
+    margin: 3px;
+    padding: 1px;
+	
+}
+#output_text {
+    display: block;
+    width: 95%;
+    height: 20px;
+    background-color: whitesmoke;
+    text-align: right;
+    margin: 3px;
+    padding: 3px;
+    overflow: hidden;
+}
+.but:hover
+{
+background-color: #339966;
+}
